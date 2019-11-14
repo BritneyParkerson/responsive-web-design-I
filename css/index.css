@@ -185,7 +185,7 @@ h5 {
     padding: 1% 1% 1% 1%;*/
     
   }
-  .iod img {
+  .iod img{
     display: none;
   }
   .section-content {
@@ -193,12 +193,6 @@ h5 {
     display: flex;
     flex-direction: row;
     position: relative;
-  }
-  .F, .A, {
-  width: 47%;
-  }
-  .S, .P, .V {
-  width: 30%
   }
 }
 
@@ -236,12 +230,6 @@ h5 {
     flex-direction: row;
     position: relative;
   }
-  .F, .A, {
-  width: 47%;
-  }
-  .S, .P, .V {
-  width: 30%
-  }
 }
 
 
@@ -275,11 +263,14 @@ h5 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: ;
+    justify-content: space-around;
   }
-  .F, .A, .S, .P, .V {
-    width: 100%;
-    position: ;
+  .F, .A {
+    
+  }
+
+  .S, .P, .V{
+
   }
 }
 
@@ -306,7 +297,7 @@ h5 {
     text-align: center;
     font-weight: bold;
   }
-  .iod img {
+.iod img {
     display: none;
   }
   .section-content {
@@ -351,7 +342,10 @@ header .logo {
 
 .iod {
   text-align: center;
-  margin: 1.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   border: 3px solid teal;
   background: linear-gradient(50deg, Silver, SlateGrey, DarkSlateGrey, Silver);
 }
@@ -360,8 +354,7 @@ header .logo {
   font-size: 60px;
   color: black;
   float: left;
-  margin-top: 10%;
-  margin-left: 20%;
+  margin: 10% auto auto auto;
   padding-bottom: 15%;
 }
 .iod button {
@@ -375,6 +368,13 @@ header .logo {
   background: linear-gradient(50deg, #ff0844 0%, #ffb199 100%);
   border: 7px inset snow;
   color: snow;
+}
+
+.iod img {
+  margin: auto 50% auto -95%;
+  width: 100%;
+  position: relative;
+  
 }
 
 .section-content {
@@ -397,7 +397,7 @@ h4 {
   font-size: 15px;
   letter-spacing: 2px;
   text-align: left;
-  margin: auto;
+  margin: 1% auto;
   width: 47%;
   float: left;
   margin-left: 3%;
