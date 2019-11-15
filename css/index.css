@@ -263,9 +263,10 @@ h5 {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    
   }
   .F, .A {
+    
     
   }
 
@@ -288,7 +289,7 @@ h5 {
   }
   header nav img {
       position: absolute;
-      padding-bottom: 95%;
+      padding-bottom: 70%;
       width: 60%;
   } 
   header nav a {
@@ -321,11 +322,11 @@ header nav {
 }
 
 header nav a {
-  margin: 5% 1% 0% 1%;
+  margin: auto;
   background-color: rgb(161, 168, 190);
   font-size: 20px;
   border-radius: 3%;
-  padding: 2%;
+  padding: 5px;
   border: 2px outset snow;
   color: black;
   background: linear-gradient(50deg, #325163 0%, #8ddbd2 100%);
@@ -370,12 +371,7 @@ header .logo {
   color: snow;
 }
 
-.iod img {
-  margin: auto 50% auto -95%;
-  width: 100%;
-  position: relative;
-  
-}
+
 
 .section-content {
   display: flex;
@@ -398,7 +394,6 @@ h4 {
   letter-spacing: 2px;
   text-align: left;
   margin: 1% auto;
-  width: 47%;
   float: left;
   margin-left: 3%;
   margin-bottom: 2%;
@@ -425,12 +420,23 @@ h4 {
   letter-spacing: 2px;
   text-align: left;
   margin: auto;
-  width: 30%;
   float: left;
   margin-left: 2%;
   margin-bottom: 5px;
   border: 5px dotted silver;
 }
+
+@media (min-width: 600px){
+  .F, .A {
+    width: 47%;
+  }
+  .S, .P, .V {
+    width: 30%;
+  }
+}
+
+
+
 
 .S:hover,
 .P:hover,
@@ -446,7 +452,7 @@ h4 {
   font-size: 15px;
   letter-spacing: 2px;
   text-align: left;
-  width: 45%;
+  width: 46.5%;
   float: left;
   margin-left: 20px;
   margin-bottom: 20px;
