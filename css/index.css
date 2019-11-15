@@ -177,12 +177,6 @@ h5 {
   } 
   header nav a {
     border: 2px;
-    /*margin-top: 3%;
-    margin: 1%;
-    background-color: rgb(161, 168, 190);
-    font-size: 20px;
-    border-radius: 1%;
-    padding: 1% 1% 1% 1%;*/
     
   }
   .iod img{
@@ -213,12 +207,6 @@ h5 {
   } 
   header nav a {
     border: 2px;
-    /*margin-top: 3%;
-    margin: 1%;
-    background-color: rgb(161, 168, 190);
-    font-size: 20px;
-    border-radius: 1%;
-    padding: 1% 1% 1% 1%;*/
     
   }
   .iod img {
@@ -378,7 +366,7 @@ header .logo {
   border: 1px solid silver;
   background-color: silver;
   width: 96%;
-  margin: 3px 15px 15px 15px;
+  margin: 3% 10% 5% 2%;
   border: 1px solid teal;
   background: linear-gradient(50deg, Silver, LightGrey, DarkGrey, Silver);
   flex-direction: row;
@@ -421,12 +409,10 @@ h4 {
   text-align: left;
   margin: auto;
   float: left;
-  margin-left: 2%;
-  margin-bottom: 5px;
   border: 5px dotted silver;
 }
 
-@media (min-width: 600px){
+@media (min-width: 500px){
   .F, .A {
     width: 47%;
   }
@@ -434,9 +420,6 @@ h4 {
     width: 30%;
   }
 }
-
-
-
 
 .S:hover,
 .P:hover,
@@ -484,246 +467,5 @@ span {
   text-align: center;
   margin-top: 225px;
   margin-bottom: 25px;
-}
-
-/*Services CSS Below this point*/
-
-#services-container {
-  background-image: linear-gradient(50deg, #0fd850 0%, #f9f047 100%);
-  width: 880px;
-  margin: auto;
-}
-
-@media (max-width: 500px) {
-  #services-container{
-    width: 100%;
-  }
-  #services-container header nav{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 15% 0%;
-  }
-  #services-container header nav p{
-      position: absolute;
-      padding-bottom: 95%;
-      width: 60%;
-  } 
-  #services-container header nav p a{
-    padding: 1% 40%;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #services-container header nav{
-    width: 100%;
-    text-align: center;
-    font-weight: bold;
-  
-  .iod img {
-    display: none;
-  }
-  .section-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .F, .A {
-    
-  }
-
-  .S, .P, .V{
-
-  }
-}
-
-#services-container #footer {
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2.5%;
-}
-
-.services h1 {
-  font-weight: bold;
-  font-size: 30px;
-  margin-left: 3%;
-}
-
-.services p {
-  font-size: 16px;
-  text-align: left;
-  letter-spacing: 2px;
-  line-height: 30px;
-  font-family: "big shoulders text", cursive;
-  margin-bottom: 25px;
-}
-
-.options {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: evenly;
-  align-content: space-between;
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid black;
-  margin: 25px 0px 25px 0px;
-}
-.options h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.paragraphs {
-  border: 10px outset rgb(30, 139, 63);
-  width: 45%;
-  margin: 20px 25px 20px 18px;
-  padding: 25px;
-}
-.options p {
-  margin: auto;
-}
-
-.options button {
-  font-size: 20px;
-  padding: 5px;
-  border-radius: 15px;
-  margin: 15px 10px 5px 10px;
-  background: linear-gradient(-225deg, #dfffcd 0%, #90f9c4 48%, #39f3bb 100%);
-  border: 5px outset green;
-}
-
-.options button:hover {
-  background: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  border: 5px inset pink;
-  color: white;
-}
-
-.facts h2 {
-  font-size: 25px;
-  font-weight: bold;
-  text-align: left;
-  margin: 0px 5px 30px 25px;
-}
-
-#facts-container {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.facts2 p {
-  font-size: 20px;
-  margin: 0px 5px 15px 25px;
-  letter-spacing: 0.5px;
-}
-
-li {
-  margin: 0px 5px 0px 40px;
-  padding: 5px;
-  text-align: left;
-}
-
-.services-info-img {
-  margin: 0px 20px 0px 40px;
-  width: 400px;
-}
-
-/*Product CSS Below this point*/
-#products-container {
-  background-image: linear-gradient(50deg, #3e0a61 0%, #84d7eb 100%);
-  width: 880px;
-  margin: auto;
-}
-#products-container #footer {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 25px;
-}
-
-.products h1 {
-  font-weight: bold;
-  font-size: 30px;
-  margin-left: 20px;
-}
-
-.products p {
-  font-size: 16px;
-  text-align: left;
-  letter-spacing: 2px;
-  line-height: 30px;
-  font-family: "big shoulders text", cursive;
-  margin-bottom: 25px;
-}
-
-.choices {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: evenly;
-  align-content: space-between;
-  border-top: 1.5px solid black;
-  border-bottom: 1.5px solid black;
-  margin: 25px 0px 25px 0px;
-}
-.choices h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.info {
-  border: 10px outset rgb(30, 55, 139);
-  width: 45%;
-  margin: 20px 25px 20px 18px;
-  padding: 25px;
-}
-.choices img {
-  margin: auto;
-  width: 300px;
-}
-
-.choices button {
-  font-size: 20px;
-  padding: 5px;
-  border-radius: 15px;
-  margin: 15px 10px 5px 10px;
-  background: linear-gradient(
-    -225deg,
-    rgb(205, 233, 255) 0%,
-    rgb(44, 118, 202) 48%,
-    rgb(92, 111, 196) 100%
-  );
-  border: 5px outset rgb(0, 9, 128);
-}
-
-.choices button:hover {
-  background: linear-gradient(
-    -225deg,
-    #769117 0%,
-    rgb(187, 66, 30) 29%,
-    rgb(67, 185, 20) 67%,
-    rgb(184, 19, 19) 100%
-  );
-  border: 5px inset rgb(194, 54, 77);
-  color: white;
-}
-
-#purchase-container {
-  display: flex;
-  justify-content: center;
-}
-
-.product-info-img {
-  margin: 20px 10px 20px 10px;
-  padding: 10ox;
-  width: 400px;
-  border-radius: 15px;
 }
 
